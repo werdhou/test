@@ -1,0 +1,64 @@
+.secondSection {
+    width: 1024px;
+    height: 768px;
+    min-height: 100%;
+    background: url(../../assets/img/second-block-bg.png);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    scroll-snap-align: center;
+}
+
+.secondSection_title {
+    font-family: GothamProLight;
+    font-size: 50px;
+    margin-top: 256px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 119px rgba(0, 131, 254, 0.09);
+}
+
+.ice {
+    position: absolute;
+}
+
+.ice_1{
+    top: 33px;
+    left: 877px;
+    width: 215px;
+    height: 206px;
+    background: url(../../assets/img/ice-brick-1.png);
+    background-size: cover;
+
+}
+
+.ice_2 {
+    top: 161px;
+    left: 82px;
+    width: 41px;
+    height: 39px;
+    background-image: url(../../assets/img/ice-brick-2.png);
+    background-size: cover;
+
+}
+
+.ice_3 {
+    top: 442px;
+    left: 232px;
+    width: 104px;
+    height: 101px;
+    background: url(../../assets/img/ice-brick-3.png);
+    background-size: cover;
+
+
+}
+
+.ice_4 {
+    top: 585px;
+    left: 713px;
+    width: 75px;
+    height: 76px;
+    background: url(../../assets/img/ice-brick-4.png);
+    background-size: cover;
+
+}

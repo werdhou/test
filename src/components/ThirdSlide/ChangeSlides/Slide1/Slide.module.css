@@ -1,0 +1,62 @@
+.firstSlide {
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden;
+    scroll-snap-align: center;
+    background: url(../../../../assets/img/third-block-bg.png);
+
+}
+
+.firstSlideTitle {
+    font-size: 30px;
+    font-family: GothamPro;
+    color: #ffffff;
+    margin-left: 84px;
+    margin-top: 117px;
+}
+
+.firstSlideBox {
+    background: url(../../../../assets/img/slide-1-box.png);
+    width: 578px;
+    height: 330px;
+    background-size: cover;
+    align-self: center;
+    margin-top: 64px;
+}
+
+.ice {
+    position: absolute;
+}
+
+.ice_1 {
+    top: 112px;
+    left: 911px;
+    width: 38px;
+    height: 39px;
+    background-image: url(../../../../assets/img/slide-1-ice-brick-1.png);
+    background-size: cover;
+    opacity: 0.53;
+}
+
+.ice_2 {
+    top: 227px;
+    left: 666px;
+    width: 106px;
+    height: 101px;
+    background: url(../../../../assets/img/slide-1-ice-brick-2.png);
+    background-size: cover;
+    opacity: 0.53;
+}
+
+.ice_3 {
+    top: 554px;
+    left: 21px;
+    width: 216px;
+    height: 205px;
+    background: url(../../../../assets/img/slide-1-ice-brick-3.png);
+    background-size: cover;
+    opacity: 0.53;
+}
