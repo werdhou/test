@@ -18,6 +18,40 @@
     text-shadow: 0 0 119px rgba(0, 131, 254, 0.09);
 }
 
+
+.navbar {
+    position: absolute;
+    top: 352px;
+    right: 27px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar2 {
+    background: rgb(247, 139, 31);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 7px;
+    transition: 1s;
+}
+
+.navbar1, .navbar3 {
+    background: white;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 7px;
+    transition: 1s;
+}
+
 .ice {
     position: absolute;
 }

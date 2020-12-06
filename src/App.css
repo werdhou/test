@@ -1,3 +1,13 @@
+.swiper-container {
+  width: 1024px;
+  height: 768px;
+}
+
+.App::-webkit-scrollbar {width:0px;}
+.App-wrapper {
+  transition: 1s;
+  width: 100%;
+}
 @font-face {
   font-family: GothamPro;
   src: url('./fonts/GothamPro.ttf');

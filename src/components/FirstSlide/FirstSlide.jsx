@@ -1,7 +1,6 @@
 import React from 'react'
 import classes from './FirstSlide.module.css'
 import classNames from 'classnames';
-import { NavLink } from 'react-router-dom';
 
 
 const FirstSlide = props => {
@@ -24,12 +23,10 @@ const FirstSlide = props => {
                 <div className={classes.pagination}></div>
             </div>
             <div className={classes.footer}>
-                <NavLink to='/secondSlide'>
                     <div className={classes.footer__1}>
                         <span>Листайте вниз</span>
                         <span className={classes.arrow_down}></span>
                     </div>
-                </NavLink>
                 <div className={classes.footer__2}></div>
 
             </div>

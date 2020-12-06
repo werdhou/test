@@ -1,0 +1,8 @@
+.slides {
+    position: relative;
+    overflow: hidden;
+    transition: all 1s ease-in;
+    display: flex;
+    width: 300vw;
+    height: 100%;
+}
